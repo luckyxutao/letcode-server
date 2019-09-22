@@ -1,0 +1,1 @@
+insert INTO `question` (answer,question,`tag_id`,`company_id`) values('第四道','第四道答案','2,3',1)

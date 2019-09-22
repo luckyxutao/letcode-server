@@ -1,0 +1,1 @@
+select a.*, b.id as company_id, b.name as company from question a inner join company b where${limitIdSql} a.company_id= b.id order by id LIMIT ${offset},${limit}
